@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    }
+    
+    body {
+        background: #585c68;
+        font-size: 14px;
+    }
+
+    .resume {
+        max-width: 1000px;
+        min-width: 320px;
+        width: 850px;
+        height: auto;
+       margin: 50px auto 0px;
+       background: white;
+       position: relative;
+    }
+
+    /* ------Top side------- */
+
+    .top {
+        height: 467px;
+        background: #161b25;
+        position: relative;
+    }
+
+    .main-photo {
+        width: 272px;
+        height: 310px;
+        margin-top: -17px;
+        margin-left: 67px;
+    }
+
+    .dark-grey-line1 {
+        width: 272px;
+        height: 71px;
+        background: #21252f;
+        margin-left: 67px;
+        margin-top: -4px;
+    }
+
+    .dark-grey-line2 {
+        width: 272px;
+        height: 103px;
+        background: #21252f;
+        margin-left: 67px;
+        margin-top: -40px;
+    }
+
+    .name {
+        position: absolute;
+        top: 72px;
+        left: 382px;
+    }
+
+    .name-suname {
+       font-family: 'Montserrat Alternates', sans-serif;
+       font-weight: 600;
+       font-size: 42px;
+       color: white;
+       left: 250px;
+       letter-spacing: 2px;
+    }
+
+    .specialization {
+        position: absolute;
+        left: 382px;
+        background: #2e323b;
+        color: white;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: 400;
+        width: 216px;
+        height: 39px;
+        font-size: 23px;
+        padding-top: 4px;
+        padding-left: 16px;
+        top: 186px;
+    }
+     
+    .phone {
+        position: absolute;
+        left: 382px; 
+        top: 286px;
+    }
+    .phone-name {
+        color: white;
+        padding-bottom: 7px;
+    }
+
+    .phone-name-bold {
+        color: white;
+        padding-bottom: 7px;
+        font-weight: 700;
+    }
+    
+    .email {
+        position: absolute;
+        left: 382px; 
+        top: 354px;
+    }
+
+    .adress {
+        position: absolute;
+        left: 599px;
+        top: 331px;
+    }
+
+
+    /* ------Bottom side------- */
+
+    .bottom {
+        height: 728px;
+        display: flex;
+    }
+
+    .bottom-left {
+        width: 340px;
+        height: 100%;
+        background: #e7e8e9;
+        width: 272px;
+        margin-left: 68px;
+        padding-left: 34px;
+    }
+
+    .name-content {
+        font-weight: 700;
+        font-size: 25px;
+        color: #161b25;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .description-education {
+       margin-bottom: 20px;
+    }
+    
+    .desc-education {
+        font-size: 15px;
+        color: #282828;
+        padding-bottom: 8px;
+    }
+
+    .img-hobbie {
+        width: 13px;
+        height: 13px;
+        float: left;
+        margin-right: 24px;
+        margin-top: 3px;
+    }
+
+    .p-hobbie {
+        font-size: 15px;
+        font-weight: 600;
+        color: #282828;
+        margin-bottom: 15px;
+    }
+
+
+
+
+
+    .bottom-right {
+        height: 100%;
+        padding-left: 34px;
+    }
+
+    .work-number {
+        display: flex;
+        width: 415px;
+        color: #282828;
+        margin-bottom: 20px;
+    }
+
+    .work-date-employer {
+        font-weight: 700;
+        padding-bottom: 5px;
+    }
+
+    .left-work {
+        margin-right: 45px;
+    }
+
+    .work-date {
+        padding-bottom: 5px;
+        text-align: justify;
+        color: #282828;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .skills {
+        margin-top: 80px;
+    }
+    .skills_description {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sklls-left, .sklls-right {
+        width: 182px;
+    } 
+
+    .p-skills {
+        font-size: 15px;
+        font-weight: 600;
+        color: #282828;
+        margin-bottom: 15px;
+    }
+
+    .img-skills {
+        width: 13px;
+        height: 13px;
+        float: right;
+        margin-left: 9px;
+        margin-top: 3px;
+    }
+
+    /* -------------------- Tablet vesion ------------------------- */
+@media (max-width: 768px) { 
+
+}
+
+ /* -------------------- Mobile vesion ------------------------- */
+ @media (max-width: 576px) {
+    .resume {
+        width: 576px;
+    }
+     
+    .top {
+        width: 576px;
+        height: 422px;
+    }
+
+    .specialization {
+        top: 356px;
+        left: 65px; 
+    }
+
+    .name { 
+        top: 26px;
+    left: 320px;
+    }
+
+    .phone { 
+        left: 324px;
+        top: 168px;
+    }
+
+    .email {
+        left: 324px;
+        top: 248px;
+     }
+
+     .adress {
+        left: 324px;
+        top: 326px;
+     }
+
+    
+    .dark-grey-line2 {
+        width: 222px;
+        height: 50px;
+    }
+
+    .main-photo {
+        width: 222px;
+        height: 270px;
+    }
+
+    .dark-grey-line1 {
+        width: 222px;
+        height: 30px;
+    }
+
+    .bottom {
+        height: auto;
+        display: block;
+        padding-bottom: 3px;
+    }
+
+    .bottom-left {
+        width: 445px;
+        padding-bottom: 26px;
+        padding-top: 1px;
+    }
+
+    .description-education { 
+        display: flex;
+    }
+    .desc-education {
+        padding-right: 11px; 
+    }
+
+    .name-content { 
+        margin-left: 33px;
+    }
+
+    .left-work {
+        margin-left: 34px;
+    }
+    
+    .work-number {
+        width: 481px;
+    }
+
+    .skills_description {
+        margin-left: 34px;
+        justify-content: left;
+    }
+
+    .skills {
+        margin-top: 27px;
+    }
+
+    .sklls-left, .sklls-right { 
+        margin-right: 74px;
+    }
+
+ }
+
+   
